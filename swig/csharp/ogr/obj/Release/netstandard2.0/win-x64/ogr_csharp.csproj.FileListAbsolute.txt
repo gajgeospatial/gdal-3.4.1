@@ -1,0 +1,12 @@
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.csproj.AssemblyReference.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.GeneratedMSBuildEditorConfig.editorconfig
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.AssemblyInfoInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.AssemblyInfo.cs
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.csproj.CoreCompileInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.csproj.CopyComplete
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\obj\Release\netstandard2.0\win-x64\ogr_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\ogr_csharp.deps.json
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\ogr_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\ogr_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\osr_csharp.pdb

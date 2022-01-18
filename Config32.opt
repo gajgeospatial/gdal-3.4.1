@@ -1,0 +1,9 @@
+#
+#Defines for 32bit Binaries VS2013
+#
+PLAT_TOOL_DIR = vc120
+PLAT_DIR = Win32
+MSVC_VER = 1800
+MSVC_DIR = VS2013
+DEBUGDIR = $(PLAT_TOOL_DIR)\\$(PLAT_DIR)\\Debug
+RELEASEDIR = $(PLAT_TOOL_DIR)\\$(PLAT_DIR)\\Release

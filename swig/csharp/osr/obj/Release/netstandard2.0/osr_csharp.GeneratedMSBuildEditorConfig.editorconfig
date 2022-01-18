@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = osr_csharp
+build_property.ProjectDir = N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\

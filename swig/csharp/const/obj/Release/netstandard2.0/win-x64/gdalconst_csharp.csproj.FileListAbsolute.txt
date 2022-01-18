@@ -1,0 +1,10 @@
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.csproj.AssemblyReference.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.GeneratedMSBuildEditorConfig.editorconfig
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.AssemblyInfoInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.AssemblyInfo.cs
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.csproj.CoreCompileInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\obj\Release\netstandard2.0\win-x64\gdalconst_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\gdalconst_csharp.deps.json
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\gdalconst_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\const\gdalconst_csharp.pdb

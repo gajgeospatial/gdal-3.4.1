@@ -1,0 +1,61 @@
+Use beyond compare to
+Copy Requred .opt files (I.E.) opt files not in new directory that are in working directory
+	Config32.opt
+	Config32_vs2010.opt
+	Config32_vs2012.opt
+	Config32_vs2015.opt
+	Config32_vs2017.opt
+	Config64.opt
+	Config64_vs2010.opt
+	Config64_vs2012.opt
+	Config64_vs2015.opt
+	Config64_vs2017.opt
+	Environment.opt
+	GAJ_Ent_MergeNewGdal.txt
+Copy Required .bat files
+	Set32Bit.bat
+	Set32Bit_vs2010.bat
+	Set32Bit_vs2012.bat
+	Set32Bit_vs2015.bat
+	Set32Bit_vs2017.bat
+	Set64Bit.bat
+	Set64Bit_vs2010.bat
+	Set64Bit_vs2012.bat
+	Set64Bit_vs2015.bat
+	Set64Bit_vs2017.bat
+	MakeBuildDirectories.bat
+
+Copy Solution and project files makegdal10.sln thru makegdal141.sln
+
+Copy makefile.vc in new target to makefile_"version".vc
+
+
+
+merge nmake.opt
+merge makefile.vc
+
+merge osmconf.ini in data directory
+
+create build and data directories 
+	vc100/...
+	vc110/...
+	vc120/...
+	by running MakeBuildDirectories.bat
+
+Subdirectories to merge
+	SWIG directories (any swig that is enabled --modify output directories 
+	swig/csharp/makefile.vc
+	swig/java/makefile.vc
+	Plugin directories (any directory which is built as a plugin)
+	frmts/ecw/makefile.vc  --modify output directories 
+	ogr/ogrsf_frmts/makefile.vc (clean plugin directories)
+	ogr/ogrsf_frmts/filegdb/makefile.vc --modify output directories
+	port/cpl_vsi.h 							(ifndef _MSC_VER arround VSIL_STRICT_ENFORCE)
+	gcore/gdal.h							(Add GDAL_OF_GPKG_FASTACESSS)
+	gcore/gdalproxypool.cpp						(Add table check in _GDALProxyPoolCacheEntry)
+	ogr/ogr_core.h							(Skip this going forward)
+	ogr/ogrsf_frmts/gpkg/ogr_geopackage.h				(Skip this going forward)
+	ogr/ogrsf_frmts/gpkg/ogrgeopackagedatasource.cpp		(Add GDAL_OF_GPKG_FASTACCESS && options GPKG_Fast)
+	ogr/ogrsf_frmts/gpkg/ogrgeopackagedriver.cpp			(Add GPKG_FAST to options string)
+ 
+

@@ -1,0 +1,50 @@
+
+EXTRAFLAGS = 	$(ECWFLAGS) -DFRMT_ecw 
+
+
+OBJ	=	ecwdataset.obj ecwcreatecopy.obj jp2userbox.obj \
+		ecwasyncreader.obj
+
+PLUGIN_DLL =	gdal_ECW_JP2ECW.dll
+
+GDAL_ROOT	=	..\..
+
+!INCLUDE $(GDAL_ROOT)\nmake.opt
+
+!IFNDEF DEBUG
+OUTDIR=$(RELEASEDIR)
+!ELSE
+OUTDIR=$(DEBUGDIR)
+!ENDIF
+default:	$(OBJ)
+	$(INSTALL) *.obj ..\o
+
+$(OBJ):	gdal_ecw.h
+
+all:	default testecw.exe
+
+clean:
+	-del *.obj
+	-del *.dll
+	-del *.exp
+	-del *.lib
+	-del *.manifest
+	-del *.exe
+
+testecw.exe:	testecw.cpp
+	$(CC) /Zi /MD $(EXTRAFLAGS) testecw.cpp $(ECWLIB)
+
+ecw_example1.exe:	ecw_example1.c
+	$(CC) /MD $(EXTRAFLAGS) ecw_example1.c $(ECWLIB)
+	
+plugin:	$(PLUGIN_DLL)
+
+$(PLUGIN_DLL): $(OBJ)
+	if exist $(GDAL_ROOT)/gdal_i.lib link /dll $(LDEBUG) /out:$(GDAL_ROOT)/$(OUTDIR)/gdalplugins/$(PLUGIN_DLL) $(OBJ) $(GDAL_ROOT)/gdal_i.lib $(ECWLIB)
+	if not exist $(GDAL_ROOT)/gdal_i.lib link /dll $(LDEBUG) /out:$(GDAL_ROOT)/$(OUTDIR)/gdalplugins/$(PLUGIN_DLL) $(OBJ) $(GDAL_ROOT)/$(OUTDIR)/gdal_i.lib $(ECWLIB)
+	if exist $(PLUGIN_DLL).manifest mt -manifest $(PLUGIN_DLL).manifest -outputresource:$(PLUGIN_DLL);2
+
+plugin-install:
+	if not exist $(PLUGINDIR) -mkdir $(PLUGINDIR)
+	$(INSTALL) $(GDAL_ROOT)\\$(OUTDIR)\\gdalplugins\\$(PLUGIN_DLL) $(PLUGINDIR)
+

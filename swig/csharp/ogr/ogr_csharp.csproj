@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk"> 
+<ItemGroup>
+  <ProjectReference Include="..\osr\osr_csharp.csproj" />
+</ItemGroup> 
+<PropertyGroup> 
+<TargetFramework>netstandard2.0</TargetFramework> 
+<AssemblyVersion>3.4.1.0</AssemblyVersion> 
+<AssemblyOriginatorKeyFile>..\gdal.snk</AssemblyOriginatorKeyFile> 
+<SignAssembly>true</SignAssembly> 
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks> 
+</PropertyGroup> 
+</Project> 

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9abctTjlFTXyj4KwKXb3Wm2FmSzbE4BcLP+1fjPS6vF69Zw7IPJmUU95wbfkM5ihJmWFB2Lc3pDvOxFj44AUkg==",
+  "success": true,
+  "projectFilePath": "N:\\Development\\Dev_Base\\gdal-3.4.1\\swig\\csharp\\const\\gdalconst_csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GLEN\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

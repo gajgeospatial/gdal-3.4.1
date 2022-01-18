@@ -1,0 +1,16 @@
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\osr_csharp.deps.json
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\osr_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\ogr\osr_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.csproj.AssemblyReference.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.GeneratedMSBuildEditorConfig.editorconfig
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.AssemblyInfoInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.AssemblyInfo.cs
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.csproj.CoreCompileInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\osr\obj\Release\netstandard2.0\osr_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\osr_csharp.deps.json
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\osr_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\osr_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\apps\osr_csharp.deps.json
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\apps\osr_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\apps\osr_csharp.pdb

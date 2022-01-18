@@ -1,0 +1,11 @@
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\apps\gdal_csharp.deps.json
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\apps\gdal_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\apps\gdal_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.GeneratedMSBuildEditorConfig.editorconfig
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.AssemblyInfoInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.AssemblyInfo.cs
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.csproj.CoreCompileInputs.cache
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.csproj.CopyComplete
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.dll
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.pdb
+N:\Development\Dev_Base\gdal-3.4.1\swig\csharp\gdal\obj\Release\netstandard2.0\gdal_csharp.csproj.AssemblyReference.cache
