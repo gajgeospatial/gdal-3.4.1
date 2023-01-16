@@ -25,10 +25,10 @@ Copy Required .bat files
 	Set64Bit_vs2017.bat
 	MakeBuildDirectories.bat
 
-Copy Solution and project files makegdal10.sln thru makegdal141.sln
+Copy Solution and project files makegdal10.sln thru makegdal143.sln
 
 Copy makefile.vc in new target to makefile_"version".vc
-
+Copy $(PROJ_DIR)/data/proj.db to data
 
 
 merge nmake.opt
